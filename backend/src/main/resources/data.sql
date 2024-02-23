@@ -14,3 +14,6 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp HTML', 'https://storage.needpix.com/rsynced_images/training-course-3250007_1280.jpg', 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Switch-course-book-grey.svg');
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITHOUT TIME ZONE '2024-11-20T03:00:00Z', TIMESTAMP WITHOUT TIME ZONE '2025-11-20T03:00:00Z', 1);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITHOUT TIME ZONE '2024-12-20T03:00:00Z', TIMESTAMP WITHOUT TIME ZONE '2025-12-20T03:00:00Z', 1);
