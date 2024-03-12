@@ -29,7 +29,6 @@ public class Deliver implements Serializable {
 	private Instant moment;
 	
 	private DeliverStatus status;
-	
 	private String feedback;
 	private Integer correctCount;
 	
